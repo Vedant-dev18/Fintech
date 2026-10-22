@@ -1,0 +1,29 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local financial database
+*.db
+*.sqlite
+*.sqlite3
+
+# Development backups
+app_backup.py
+app_before_langgraph.py
+app_langgraph_working.py
+agent_workflow_backup.py
+agent_workflow_before_tools.py
+
+# Logs
+*.log
